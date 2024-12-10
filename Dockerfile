@@ -1,5 +1,5 @@
 # Use a minimal base image (Ubuntu)
-FROM ubuntu:22.04
+FROM debian:bookworm-slim
 
 # Set environment variables and install dependencies
 RUN apt-get update && apt-get install -y \
